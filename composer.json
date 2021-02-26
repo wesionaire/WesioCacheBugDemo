@@ -1,0 +1,17 @@
+{
+  "name": "wesio/cachebugdemo",
+  "description": "Demonstrate the Shopware aggregation cache bug",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "WesioCacheBugDemo\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "WesioCacheBugDemo\\WesioCacheBugDemo",
+    "label": {
+      "de-GB": "aggregation cache bug demonstration"
+    }
+  }
+}
